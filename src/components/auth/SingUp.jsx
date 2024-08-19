@@ -12,10 +12,10 @@ export const SignUp = () => {
   const { msgError } = useSelector((state) => state.ui);
 
   const [formValues, handleInputChange] = useForm({
-    name: "jorge",
-    email: "admin@gmail.com",
-    password: "123qwe",
-    password2: "123qwe",
+    name: "",
+    email: "",
+    password: "",
+    password2: "",
   });
 
   const { name, email, password, password2 } = formValues;
